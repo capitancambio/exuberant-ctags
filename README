@@ -1,3 +1,22 @@
+Note for this version:
+
+To add support to classes, properties and methods for matlab in tagbar in vim add this
+to your .vimrc:
+
+let g:tagbar_type_matlab= {
+            \ 'ctagstype' : 'MatLab',
+			\ 'kinds' : [
+			\'c:classes',
+			\'f:fields',
+			\'m:methods',
+			\'F:functions',
+			\ ]
+			\ }
+
+
+
+
+
 Exuberant Ctags
 ===============
 Author: Darren Hiebert <dhiebert at users.sourceforge.net>
