@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+One	test.m	/^		One$/;"	f	class:test
+altracosa	test.m	/^function altracosa()$/;"	F
+inner	test.m	/^			function inner()$/;"	F	class:test
+method1	test.m	/^		function [self]=method1()$/;"	m	class:test
+method3	test.m	/^		function method3(self)$/;"	m	class:test
+metod2	test.m	/^		function self=metod2(self)$/;"	m	class:test
+test	test.m	/^classdef test < handle$/;"	c
+three	test.m	/^		three;$/;"	f	class:test
+two	test.m	/^		two=otracosa();$/;"	f	class:test
